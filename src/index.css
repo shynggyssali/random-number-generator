@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+
+input[type="number"] {
+  margin-bottom: 30px;
+  padding: 15px;
+  font-size: 25px;
+}
+
+button {
+  padding: 15px 30px;
+  font-size: 25px;
+  background-color: hsl(210, 100%, 50%);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: hsl(210, 100%, 40%);
+}
+
+.display {
+  margin-top: 30px;
+  font-size: 75px;
+}
